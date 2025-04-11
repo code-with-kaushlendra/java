@@ -7,7 +7,12 @@ GitHub - It is a cloud based plateform(server) that hosts git repositories.micro
 git commands- git init (converts working directory into repository directory).
               git status
               git add  or git add * or git add .
-
+              git commit -m "message"
+              git log (history)
+              git clone "local host url"
+              git clone url
+              git push
+                  
                  
 
 
