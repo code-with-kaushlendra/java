@@ -1,0 +1,54 @@
+                          Backend
+
+
+1]Core Java- Syntax and basics
+          - OOPs
+          - Strings
+          - Exception Handling
+          - I/O
+          - Collection Framework
+          - JVM internals
+
+
+2]Database -  Relational database(MYSQL) 
+              MONGODB
+ 
+
+3]Projects - Library Management System
+           -   Student Management System etc.
+
+
+4]*DSA - Basics 
+         Linear data structure 
+         non linear 
+         algorithms 
+         Hashing 
+
+5]Advanced Java - JDBC -CRUD
+                  Servlets -Request /Response handling
+                  JSP- Tags, lifecycle
+
+
+6]spring Framework - Spring Core: DI , Ioc,etc.
+                     Spring MVC
+                     Spring Data JPA
+                     Spring Security
+                     Spring Boot
+                     Spring Boot API and Restful Web services
+
+7] Build Tools   - Maven,Gradle,etc
+
+8] Version Control System : Git , Github
+
+
+
+
+                            Frontend
+
+1] HTML,CSS,CSS Framework(Bootstrap/Tailwind)
+2] Javascript - DOM
+3] JS frameworks - React/Angular
+4] Projects - Ecommerce sites,etc.
+
+
+
