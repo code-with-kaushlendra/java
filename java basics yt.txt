@@ -10,7 +10,7 @@ git commands- git init (converts working directory into repository directory).
               git commit -m "message"
               git log (history)
               git clone "local host url"
-              git clone url
+              git clone url(on server)
               git push
                   
                  
