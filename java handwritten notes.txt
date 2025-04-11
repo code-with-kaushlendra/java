@@ -12,7 +12,7 @@ git commands- git init (converts working directory into repository directory).
               git clone "local host url"
               git clone url(on server)
               git push
-git init---> git status--> git add .---> git commit -m ""---> paste url --->git remote -v---> git push
+git init---> git status--> git add .---> git commit -m ""---> paste url(new)/skip(once done) --->git remote -v---> git push
                   
                  
 
