@@ -1,0 +1,69 @@
+
+
+Roadmap=>  Springboot3---->API/HTTP----->JDBC-Mysql
+Git- Git is open source tool that  based on version control system VCS ,2005 . Git is software which runs on command line . It stores locally in your computer. 
+GitHub - It is a cloud based plateform(server) that hosts git repositories.microsoft ,2008.
+
+git commands- git init (converts working directory into repository directory).
+              git status
+              git add  or git add * or git add .
+
+                 
+
+
+
+
+
+RESTAPI-Representational state transfer  
+
+
+
+History of java: James gosling & team. Now owned by oracle.
+OOPs in java : relate real world things(object)  with java programming language.
+version: javac 22.0.1
+
+Constructor is like a function that calls automatically when object assigns.
+This keyword means current class. this keyword never be called in class or function.
+
+Inheritence:
+
+ Single inheritence - one parent and one child
+multilevel inheritence - A -B -C 
+Hierarchial inheritence - 
+multiple [ through interfaces]
+hybrid   [ through interfaces]
+
+
+Interfaces - it is like todo list.means we define all methods in interface and their body must  is in class.
+method overloading - same method name but different arguments.
+
+                              
+                         
+Method overriding rules- must have inheritence(extends)
+                         Same function name 
+                         same argument pass
+
+super keyword- when we call method inside child class to  inherit the parent class properties..
+
+
+Exception Handling: unexpected results.
+Try catch use to handle errors.
+Finally - it runs in both cases either any exception or not.
+
+throw-forcefully send to catch block.(intentionally mistakes)
+throws-sends in catch block on occurence of errors (accidental mistakes)
+
+
+JDBC drivers -javadatabase connectivity
+four drivers-jdbc,native,think, network protocol driver.
+
+MVC Architecture - Model view controller(model means database)
+                    database --->servlet ----> view
+Servlet runs on server.
+post means sending something.
+Server- a server is hardware or software that processes requests sent over a network and replies to them. a client is the device that submits a request and waits for a response from the server.
+communication between two servers by the help of api.Or btween client and server.
+Json-java script object notation.
+JSP- java server page is used to send the data to the html and used to receive also .
+                                          
+
