@@ -13,6 +13,16 @@ git commands- git init (converts working directory into repository directory).
               git clone url(on server)
               git push
 git init---> git status--> git add .---> git commit -m ""---> paste url(new)/skip(once done) --->git remote -v---> git push
+
+
+
+Some MYSQL commands - create database database_name;
+                      use database database_name;
+                      create table table_name(name varchar(100), email varchar(200);
+                      show databases;
+                      use database;
+                      desc table_name;
+                      select * from table_name;
                   
                  
 
@@ -75,6 +85,7 @@ JSP- java server page is used to send the data to the html and used to receive a
 
 
 More about JDBC - Steps for Db Connection
+
                   load and register driver- Class.forName("com.mysql.cj.jdbc.Driver");
                   create connection - Connection conn=DriverManager.getConnection("url","username","password");
                   create statement  - PreparedStatement ps= con.prepareStatement("sqlquery");
