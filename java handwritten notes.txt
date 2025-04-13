@@ -24,6 +24,7 @@ Some MYSQL commands - create database database_name;
                       desc table_name;
                       select * from table_name;
                       update table_name set column_1=?,where column_2=?;
+Align code- shift+ ctrl+ f
                   
                  
 
@@ -104,7 +105,20 @@ About Servlet & JSP-
 
 Servlet-Servlet is server side technology which is used to handle the client request , process the request and generate dynamic response.
 Server is two types 1] webserver 2] Application server
-                  
+
+Hierarchy - Servlet---->GenericServlet---->HTTPServlet
  
+ Servlet(interface)-It defines servlet life cycle methods.
+ GenericServlet(class)- When we want to create protocol independent servlet & no req-res methods.                  
+ HTTPServlet(class) - It is most used when we want http specific methods & request-response object.Http methods like get,post,put,delete,head.
+
+Note- all above servlets are defined in jakarta package.
+
+Servlet life cycle-
+1] loading & instantiation means MyServlet file will compiled and .class file will be created and then this .class file will be loaded in the Memory.When server is started , servlet class is loaded and servlet object is created.
+2]Initialization-init()method.
+3] Request handling-service()method it will handle the client request. IN this phase service method will be invoked.
+4] Destroy -destroy()method.When the server is shut down , destroy method will be executed & servlet obj will be deleted.
+
                                           
 
