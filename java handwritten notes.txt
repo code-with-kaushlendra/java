@@ -120,5 +120,16 @@ Servlet life cycle-
 3] Request handling-service()method it will handle the client request. IN this phase service method will be invoked.
 4] Destroy -destroy()method.When the server is shut down , destroy method will be executed & servlet obj will be deleted.
 
-                                          
 
+Web.xml: also known as "deployment descripter" file. Servlet Mapping is done in web.xml  .On the per client request to execute servlet file it executes that servlet in server .it is done by the help of web.xml.   
+         We create web.xml file in WEB-INF folder. 
+   
+  NOte- In latest version , it is not compulsory to create web.xml file.                               
+
+Diffrent tasks of web.xml file:
+ 1] Servlet configuration
+ 2] JSP File Configuration
+ 3] Filter configurations
+ 4] Listener config
+ 5] error page config
+ 6] welcome file config
