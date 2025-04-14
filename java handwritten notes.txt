@@ -133,3 +133,13 @@ Diffrent tasks of web.xml file:
  4] Listener config
  5] error page config
  6] welcome file config
+
+HTTP methods GET and POST-http methods define the specific actions that can be performed on the resources like java or servlet file , Image file,Documnent file.GET=doGet(-,-).Bydefault get is invoked.
+
+                          get method sends data through the resource url and thus it is not secured. get is slightly faster.send very less data.
+                          post method sends data through the http message body and thus it is more securd. post is slightly slow.send huge data (no restriction).POST=doPost(-,-).
+
+sendRedirect()method is used to redirect the response to another resource(i.e to servlet/url or JSP or html etc)
+It is method of HttpServletResponse.
+
+RequestDispatcher interface is used to dispatch the request to another resource (Servlet or jsp or html within same application).
