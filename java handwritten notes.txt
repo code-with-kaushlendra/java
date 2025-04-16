@@ -142,4 +142,38 @@ HTTP methods GET and POST-http methods define the specific actions that can be p
 sendRedirect()method is used to redirect the response to another resource(i.e to servlet/url or JSP or html etc)
 It is method of HttpServletResponse.
 
-RequestDispatcher interface is used to dispatch the request to another resource (Servlet or jsp or html within same application).
+RequestDispatcher interface is used to dispatch the request to another resource (Servlet or jsp or html within same application). It does not change url.
+
+
+HttpSession Management-It is used to maintain data consistency. BY creating session obj.
+
+
+                        1] HttpSession hs=req.getSession();
+                        2] hs.setAttribute("key",value);
+                        3] Object obj =hs.getAttribute("key");
+             optional   4] hs.invalidate();    // to delete complete session
+                           hs.removeAttribute("key");   // to delele one key value in session
+
+Different ways to delete session object : using invalidate method
+                                          closing the browser
+                                          using web.xml file
+
+
+JSP- Need of Jsp-->It is difficult to create dynamic web pages using servlet . By this reason jsp is introduced.Before jsp ,servlet is used for both frontend and backend code.JSP is advanced version of servlet technology.
+                   Both jsp & servlet are server side technology but jsp is mainly used for frontend and servlet is used for backend.Jsp is bydefault html page and servlet is bydefault java page.
+                   It is easier to code in jsp compared to servlets.JSP runs slower than servlet as it takes time to compile the program and convert into servlets.JSP can only accept HTTP requests.
+
+JSP life cycle- 1] Translation:  jsp-->servlet
+                2] Compilation:  servlet--> .class
+                3] Loading & Instatiation 
+                       - .class file is loaded on server & object is created
+                4] Initialization : Object is intialized that created .
+                        jspInit() method
+                5] Request Handling  
+                         Service(), doGet()
+                         _jspService()  
+                6] Destroy- object is deleted that created
+                       destroy()
+                       jspDestroy()           
+  
+                                         
