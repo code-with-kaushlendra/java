@@ -136,7 +136,7 @@ Diffrent tasks of web.xml file:
 
 HTTP methods GET and POST-http methods define the specific actions that can be performed on the resources like java or servlet file , Image file,Documnent file.GET=doGet(-,-).Bydefault get is invoked.
 
-                          get method sends data through the resource url and thus it is not secured. get is slightly faster.send very less data.
+                          get method sends data through the resource url and thus it is not secured. get is slightly faster.send very less data.It always return in object we need to typecast for string.
                           post method sends data through the http message body and thus it is more securd. post is slightly slow.send huge data (no restriction).POST=doPost(-,-).
 
 sendRedirect()method is used to redirect the response to another resource(i.e to servlet/url or JSP or html etc)
@@ -174,6 +174,35 @@ JSP life cycle- 1] Translation:  jsp-->servlet
                          _jspService()  
                 6] Destroy- object is deleted that created
                        destroy()
-                       jspDestroy()           
+                       jspDestroy()       
+
+JSP tags- 1] Scripting tags-are used to embed java code within the jsp page.  <% ---%> 
+ 
+              i]   Sciptlet tag-variables,print,if-else,forloop,logics,database connectivity etc    <%  -- %>
+              ii]  Declarations tag- used to declare variables & methods  <%!--%>
+              iii] Expression tag- used to evaluate an expression,print,etc     <%= -- %>
+
+          2] Directive tags- are used to provide instructions or directives to the jsp container on how to handle the jsp page during compilation and execution.  <%@ ----%>
+                 
+              i]   Page Directive      <%@  page attribute="value"%>
+              ii]  Include Directive   <%@ include file="resource"%>
+             iii]  Taglib directive    <%@ taglib uri=""  prefix=""%>
+
+
+          3] Action tags- are used to perform specific actions or operations within the jsp page . Action tags provide a way to inteact with java objects,control flow, and perform actions like forwarding including other resources and manipulating session attributes.<jsp:-    />
+
+               i] include tags             <jsp: include--/>
+               ii] forward tag             <jsp:forward--/>
+               iii] Beans action tags      <jsp.getProperty-/>,etc
+
+JSP imlicit objects- JSP implicit objects are predefined variables that are available for use without any explicit declaration or initialization . These objects are automatically created by jsp container and provide access to various functionalities and information related to jsp page , request , session , application , and more.
+
+JSP 9 impicit objects- request , response , out,session, application,config,pagecontext,page,exception.
+
+Expression language-${-expression-}
+
+ EL is a simplified language that is used to access and manipulate 
+data within jsp pages. It provides a convenient way to access the data stored in the objects
+like request,session,application ,java bean component etc.
   
                                          
