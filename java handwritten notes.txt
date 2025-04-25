@@ -199,10 +199,40 @@ JSP imlicit objects- JSP implicit objects are predefined variables that are avai
 
 JSP 9 impicit objects- request , response , out,session, application,config,pagecontext,page,exception.
 
-Expression language-${-expression-}
+Expression language-      ${-expression-} like ${param.name1},${10+25},etc
 
  EL is a simplified language that is used to access and manipulate 
 data within jsp pages. It provides a convenient way to access the data stored in the objects
 like request,session,application ,java bean component etc.
+ 
+
+
+
+
+
+
+
+                                         Spring
+
+
+Open source java framework.
+we can develop standalone and Enterprise app.
+2003 (initial release) by ROd Johnson.
+
+
+Advantages- Modular and lightweight,flexible config,Dependency Injection , Aspect-oriented programming
+             , Simplified database access,testing support , security,open source,etc
+
+Spring Container- Core Component(heart)
+          
+                  Types- Beanfactory(old)
+                         ApplicationContext(new)
+
+                  Responsibilites- Manage bean objects
+                                    manage bean life cycle 
+                                     DI
+                                    AOP
+                                   Transaction management
+ 
   
                                          
