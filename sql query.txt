@@ -1,0 +1,9 @@
+Some important queries:
+
+1. Select * from table_name;
+
+2. create table table_name (
+      id int(34),
+      name varchar(45));
+
+3. alter table table_name drop column column_name;
