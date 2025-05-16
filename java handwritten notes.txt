@@ -233,6 +233,9 @@ Spring Container- Core Component(heart)
                                      DI
                                     AOP
                                    Transaction management
+
+POJO class-
+JavaBean class- It follows more conventions and it more strict.
  
   
                                          
