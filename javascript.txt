@@ -1,0 +1,15 @@
+let -allow to modify
+const -  Not allow to modify
+var-prefer not to use var because of issue in block scope  
+console.table([Id,Name,Class])- to print in tabular form
+Use strict- treat all js code as newer version
+symbol-to identify uniqueness
+
+null-standalone value
+undefined
+
+Note- type of null is object
+      type of undefined is undefined
+
+String cancatenation-    str2=st1+ str2
+
