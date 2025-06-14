@@ -1,3 +1,10 @@
+                                JavaScript Learning by mdn web docs
+                               ------------------------------------------
+
+
+
+
+
 let -allow to modify
 const -  Not allow to modify
 var-prefer not to use var because of issue in block scope  
@@ -5,11 +12,134 @@ console.table([Id,Name,Class])- to print in tabular form
 Use strict- treat all js code as newer version
 symbol-to identify uniqueness
 
-null-standalone value
+null-standalone value.It usually comes from DB.
 undefined
+Undefined have no value but null have value that is empty
 
-Note- type of null is object
-      type of undefined is undefined
-
+Note------- type of null is object
+            type of undefined is undefined
+            type of date is object
+ 
 String cancatenation-    str2=st1+ str2
+
+
+
+
+Datatypes- Two types :
+
+Primitive(call by value)--- String,Number,Boolean,null,Undefined,Symbol,BigInt.
+
+Non Premitive(call by reference)---Array,Objects,Functions .typeof  nonprimitive  is function But typeof function is function object.
+
+
+
+
+Memory- Two types :
+
+STack:(Primitive).Any changes revert in only copy .
+
+Heap:(Non-primitive).Any changes revert in original stored data. 
+
+
+Note----Imp
+
+console.log(`my name is ${name} and age is ${age}`)
+console.log(name.toLowerCase())
+console.log(name.charAt(4))
+console.log(name.indexOf('r'))
+console.log(name.substring(0,5))
+console.log(name.trim())
+console.log(name.replace('r','3'))
+console.log(name.split('-'))
+console.log(balance.toFixed(2))
+console.log(hundreds.toLocalString())
+
+console.log(Math.abs(-4))
+console.log(Math.round(4.6))
+console.log(Math.random())
+Console.log(mydate.getMonth())
+Console.log(Date.now()/1000) - find Date in seconds
+
+
+Array methods
+
+myarr.push(6);
+myarr.unshift(5); - add  5 first of array
+Slice - It does not manipulates original array.
+Splice- It manipulates original array.
+
+concat - const mynew2=arr1.concat(arr2);
+spread- const mynew2=[...arr1,...arr2];
+rest operator- function add(...num1)
+
+console.log(Array.isArray("radhe");  // False
+console.log(Array.from("mayank"));  // returns array
+console.log(Array.isArray({name:"mayank"})); returns []
+
+
+1] Object.create() - one method used for creating object. issse singleton object banta hai.
+
+2] const myobj={
+//issse singleton object nii banta hai
+          key:value;
+   }
+
+to accessing objects- console.log(myobj.key);
+                             OR
+
+                      console.log(myobj["key"]);
+
+
+
+const mysym=Symbol("key1")
+
+// obj destructuring
+
+Const {name:NAME}=user
+console.log(NAME);
+
+//json file is like object. bounded with only curly braces
+
+This keyword refers current context. It only works in object not in function. 
+
+// function
+            - function add(){   ----}    OR     const addvalue=(value1,value2){  ----}
+
+//arrow function 
+                 - const addtwo=()=>{  ---  }
+
+IIFE(immediately invoked function expression)- It is used to prevent global scope variables pollution 
+
+Javascript execution context - 1] Global execution context---> this
+                                
+                                       two phases - memory creation phase  - variables undefined
+      								execution phase           - assign values 
+                               
+  
+                              2] Function execution context 
+
+truthy values- "0", 'false'," ",[],{},funtion(){}
+falsy values- false,0,-0,BigInt 0n , "",null,undefined,NaN
+
+// Nullish Coalescing Operator (??) : null undefined 
+                      
+                                      val1=null ?? 3;
+                                      console.log(val1) // it assigns 3 because safety operator used 
+
+// Terniary operator - condition ? true:false
+                                         
+
+// High order array loops
+
+for of loop - for(const num of object){ ----------- }
+for in loop - for(const num in object){ ----------- }
+
+// maps - map object holds key value pairs it remember order of inserting keys . it has unique values.
+
+      
+
+
+
+
+
 
