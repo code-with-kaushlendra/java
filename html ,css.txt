@@ -1,0 +1,31 @@
+            ----------------------------HTML--------------------
+
+
+Anchor Tag- <a> defines a hyperlink.< a href="http://www.google.com">Visit Google</a>
+image Tag- <img src="/images/bg.jpg" alt="Mountain">
+style tag- <p style="color:red;">This is red paragraph.</p>
+            <h1 style="font-size:300%;">This is large heading</h1>
+html comment- <!-- Write comment here -->
+
+RGB
+RGBA- Red Green Blue with Alpha channel(opacity) 
+
+CSS types- Inline Css for inside tag 
+           Internal CSS for Single html page
+           External CSS for multiple html pages <link  rel="stylesheet" href="style.css">
+Favicon - small image at left top of browser
+
+List - Ordered list (1,2,3,4-----)
+       Unordered List (.,.,.,----)
+<Span> - element used to style parts of the text
+<div> - it is used to style blocks of the content
+
+The class attribute is often used to point to a class name in a style sheet.
+
+The id attribute is used to point to a specific style declaration in a style sheet.
+You cannot have more than one element with the same id in an HTML document.
+The syntax for id is: write a hash character (#), followed by an id name.
+
+A responsive web design will automatically adjust for different screen sizes and viewports.
+
+A semantic element clearly describes its meaning to both the browser and the developer

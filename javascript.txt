@@ -121,7 +121,7 @@ Javascript execution context - 1] Global execution context---> this
 truthy values- "0", 'false'," ",[],{},funtion(){}
 falsy values- false,0,-0,BigInt 0n , "",null,undefined,NaN
 
-// Nullish Coalescing Operator (??) : null undefined 
+// Nullish Coalescing Operator (??) : null& undefined 
                       
                                       val1=null ?? 3;
                                       console.log(val1) // it assigns 3 because safety operator used 
@@ -133,6 +133,9 @@ falsy values- false,0,-0,BigInt 0n , "",null,undefined,NaN
 
 for of loop - for(const num of object){ ----------- }
 for in loop - for(const num in object){ ----------- }
+forEach      - arr.forEach(()=>{-------  }). It does not returns . isse agr kaam krwana hai to const myval=arr.filter(()=>) use krna hoga 
+                                 
+                                    
 
 // maps - map object holds key value pairs it remember order of inserting keys . it has unique values.
 

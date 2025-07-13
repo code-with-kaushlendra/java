@@ -236,6 +236,18 @@ Spring Container- Core Component(heart)
 
 POJO class-
 JavaBean class- It follows more conventions and it more strict.
+
+🔹 Core Java Questions
+
+What are the features of Java 8?
+What is the Optional class?
+What is a Functional Interface?
+What is a Lambda expression and its syntax?
+Create a Functional Interface and implement it
+What is Serialization? What is serialVersionUID?
+Internal working of HashMap
+What is Multithreading? Different thread states?
+What is Deadlock and how to prevent it?
  
   
                                          

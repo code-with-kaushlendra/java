@@ -25,3 +25,24 @@ Some important queries:
 11. SELECT DISTINCT CITY
    FROM STATION
    WHERE lower(LEFT(CITY, 1)) IN ('a', 'e', 'i', 'o', 'u');
+
+
+
+
+
+
+
+
+
+Database- Is a storage container thats holds data , we can access , modify and analyze.
+        eg. MYSql , postgresql, MongoDB, Microsoft SQL .
+
+iNNER JOIN- returns rows where there is a match in both tables.
+Left join- returns all rows from left table and matching rows from right table.
+Right join- returns all rows from right table and matching rows from left table.
+Full join- combines left and right join results. including unmatched rows from both tables.
+
+
+Delete- removes rows from a table based on condition.
+Truncate- Delete all rows from table.it is faster than delete and cant be rolled back.
+Drop- complete removes the table structure and data.
